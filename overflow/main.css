@@ -1,0 +1,41 @@
+*{
+    /* padding: 0px; */
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* html의 가장 기본사이즈로 해주는게 rem */
+html{
+
+}
+h1{
+    line-height: 3;
+    text-shadow: 2px 2px 4px lightgrey;
+}
+
+.first{
+    font-size: 15px;
+}
+/* em = 부모따라 사이즈조절 */
+/* rem = html기준 사이즈 조절 */
+.second{
+    font-size: 2em;
+}
+.three {
+    font-size: 3em;
+}
+.text{
+    text-transform: uppercase;
+    text-transform: capitalize;
+}
+.letter{
+    letter-spacing: 1.2px;
+    word-spacing: 5px;
+
+}
+/* 목록 스타일 */
+ul{
+    margin-left: 100px;
+}
+li{
+    list-style-image:url("whale.png");
+}
